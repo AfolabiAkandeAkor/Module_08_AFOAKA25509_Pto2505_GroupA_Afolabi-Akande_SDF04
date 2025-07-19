@@ -106,3 +106,66 @@
   box-sizing: border-box;
 }
 
+
+/* Responsive Styles  */
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .subscribe,
+  .flex {
+    width: 100%;
+  }
+
+  .flex {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .link,
+  .technologies {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .subscribe,
+  .flex,
+  .link,
+  .technologies {
+    width: 100%;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .type,
+  .btn {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .subscribe {
+    font-size: 16px;
+  }
+
+  .list {
+    font-size: 14px;
+  }
+}
