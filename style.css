@@ -20,6 +20,57 @@
   flex-direction: row;
 }
 
+/* Newsletter Section */
+
+.subscribe {
+  width: 50%;
+  height: 150px;
+  font-family: 17px;
+  padding-bottom: 20px;
+  color: rgb(53, 49, 49);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+/* Footer Link & Technology Section */
+
+.link {
+    width: 25%;
+    height: 150px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: rgb(53, 49, 49);
+}
 
 
+.technologies  {
+    width: 25%;
+    height: 150px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: rgb(53, 49, 49);
+
+}
+
+/* Image-logo Section */
+
+.logo {
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Unordered List Section */
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(53, 49, 49);
+
+}
 
